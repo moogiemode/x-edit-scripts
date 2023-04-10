@@ -1,0 +1,166 @@
+{
+    Makes a new recipe book (BOOK) record and applies having it as a codition to the selected recipes.
+    Hotkey: Ctrl+i
+    Remember to make overrides of COBJ records before applying script to leave the original records unmodified.
+}
+unit BOOKintoCOBJ;
+uses mteFunctions;
+
+var
+    newEditorId, newName, bookName: String;
+    bookCreated: Boolean;
+    bookRecord: IwbElement;
+
+function Process(selectedElement: IInterface): integer;
+var
+    recordGroup, condition, conditions, bookCondition, model, kwda, k, recipeItem, items: IInterface;
+    destinationFile: IwbFile;
+    bookRecipeRecord: IwbElement;
+
+begin
+    // Skip all that is not a COBJ
+    if not (Signature(selectedElement) = 'COBJ') then
+    exit;
+	
+	// IF TANNING RACK CHANGE TO SMITHING FORGE OTHERWISE EXIT
+    if (GetElementEditValues(selectedElement, 'BNAM') = 'CraftingTanningRack [KYWD:0007866A]') then begin
+        SetElementEditValues(selectedElement, 'BNAM', '00088105');
+	    AddMessage('Tanning Rack Converted to Smithing Forge');
+    end else if (GetElementEditValues(selectedElement, 'BNAM') = 'CraftingSmithingSkyforge [KYWD:000F46CE]') then begin
+        SetElementEditValues(selectedElement, 'BNAM', '00088105');
+	    AddMessage('Sky Forge Converted to Smithing Forge');
+    end else if not (GetElementEditValues(selectedElement, 'BNAM') = 'CraftingSmithingForge [KYWD:00088105]') then begin
+	    AddMessage('Non Smithing Forge Recipe Found');
+        exit;
+    end;
+
+	bookName := StringReplace('[Craft] ' + Copy(GetFileName(selectedElement), 1, Length(GetFileName(selectedElement)) - 4), '_', '', [rfReplaceAll]);
+	
+    // Create book
+    if not bookCreated then begin
+        destinationFile := GetFile(selectedElement);
+
+        // Get BOOK category
+        recordGroup := GroupBySignature(destinationFile, 'BOOK');
+
+        // Create BOOK category if it didn't exist
+        if not Assigned(recordGroup) then begin
+            recordGroup := Add(destinationFile, 'BOOK', true);
+        end;
+        
+        // Create record
+        bookRecord := Add(recordGroup, 'BOOK', true);
+
+        // Set Book values
+        SetElementEditValues(bookRecord, 'EDID', StringReplace(StringReplace(bookName, ' ', '', [rfReplaceAll]), '-', '', [rfReplaceAll]));//replace all space with underscore in bookname
+        SetElementEditValues(bookRecord, 'FULL', bookName);
+        SetElementEditValues(bookRecord, 'OBND\X1', -57);
+        SetElementEditValues(bookRecord, 'OBND\Y1', -13);
+        SetElementEditValues(bookRecord, 'OBND\Z1', -7);
+        SetElementEditValues(bookRecord, 'OBND\X2', 57);
+        SetElementEditValues(bookRecord, 'OBND\Y2', 1);
+        SetElementEditValues(bookRecord, 'OBND\Z2', 7);
+        SetElementEditValues(bookRecord, 'DESC', 'A Design Schematic Compendium that enables forging of Equipment.');
+        model := Add(bookRecord, 'Model', true);
+        SetElementEditValues(bookRecord, 'Model\MODL', 'Clutter\ElderScroll\ElderScrollFurled.nif');
+        SetElementEditValues(bookRecord, 'DATA\Skill', 'None');
+        SetElementEditValues(bookRecord, 'DATA\Value', 100);
+        SetElementEditValues(bookRecord, 'DATA\Weight', 5);
+        SetElementEditValues(bookRecord, 'INAM', '00048783');
+
+        // Add VendorItemBook keyword
+        // kwda := Add(bookRecord, 'KWDA', true);
+        // k := ElementAssign(kwda, HighInteger, nil, False);
+        // SetEditValue(k, '000937A2');
+
+        // Do this just because every skyrim book has an empty description
+        Add(bookRecord, 'CNAM', true);
+
+        bookCreated := true;
+
+        // Create recipe for book
+        begin
+            // Get COBJ category
+            recordGroup := GroupBySignature(destinationFile, 'COBJ');
+            
+            // Create record
+            bookRecipeRecord := Add(recordGroup, 'COBJ', true);
+
+            // Set values
+            SetElementEditValues(bookRecipeRecord, 'EDID', GetElementEditValues(bookRecord, 'EDID') + 'Recipe');
+            SetElementNativeValues(bookRecipeRecord, 'CNAM', FormID(bookRecord));
+            SetElementEditValues(bookRecipeRecord, 'BNAM', '0007866A'); // Tanning rack
+            SetElementEditValues(bookRecipeRecord, 'NAM1', '1');
+            
+		    items := Add(bookRecipeRecord, 'Items', true);
+
+            // Add new recipe ingredient: 3 Daedra Silk
+            recipeItem := ElementByIndex(items, 0);
+            AddMasterIfMissing(getFile(selectedElement), 'ccBGSSSE037-Curios.esl');
+            SetElementEditValues(recipeItem, 'CNTO\Item', IntToHex(GetLoadOrderFormID(MainRecordByEditorID(GroupBySignature(FileByName('ccBGSSSE037-Curios.esl'), 'INGR'), 'ccBGSSSE037_DaedraSilk')), 8));
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 3);
+
+            // Change/repeat these 3 rows to create new requirements for the recipe
+            recipeItem := ElementAssign(items, HighInteger, nil, False);
+            SetElementEditValues(recipeItem, 'CNTO\Item', '0003F7F8');//Tundra Cotton
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 12);
+
+            // Change/repeat these 3 rows to create new requirements for the recipe
+            recipeItem := ElementAssign(items, HighInteger, nil, False);
+            SetElementEditValues(recipeItem, 'CNTO\Item', '0003AD5F');//Frost Salts
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 3);
+
+            // Change/repeat these 3 rows to create new requirements for the recipe
+            recipeItem := ElementAssign(items, HighInteger, nil, False);
+            SetElementEditValues(recipeItem, 'CNTO\Item', '0003AD60');//Void Salts
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 3);
+
+            // Change/repeat these 3 rows to create new requirements for the recipe
+            recipeItem := ElementAssign(items, HighInteger, nil, False);
+            SetElementEditValues(recipeItem, 'CNTO\Item', '0003AD5E');//Fire Salts
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 3);
+
+            // Change/repeat these 3 rows to create new requirements for the recipe
+            recipeItem := ElementAssign(items, HighInteger, nil, False);
+            SetElementEditValues(recipeItem, 'CNTO\Item', '0005AD9E');//Gold Ingot
+            SetElementNativeValues(recipeItem, 'CNTO\Count', 1);
+
+            // Add Conditions for Book
+            Add(bookRecipeRecord, 'Conditions', true);
+            bookcondition := ElementByPath(bookRecipeRecord, 'Conditions\Condition\CTDA');
+
+
+            // Set bookcondition values
+            SetEditValue(ElementByIndex(bookcondition, 0), '00100000');
+            SetEditValue(ElementByIndex(bookcondition, 2), 1.000000);
+            SetEditValue(ElementByIndex(bookcondition, 3), 'GetItemCount');
+            SetNativeValue(ElementByName(bookcondition, 'Inventory Object'), FormID(selectedElement));
+            SetEditValue(ElementByName(bookcondition, 'Run On'), 'Reference');
+            SetEditValue(ElementByName(bookcondition, 'Reference'), '00000014');
+
+
+        end;
+    end;
+
+    // Add new condition (CTDA)
+    conditions := ElementByName(selectedElement, 'Conditions');
+    if not Assigned(conditions) then begin
+		Add(selectedElement, 'Conditions', true);
+        condition := ElementByPath(selectedElement, 'Conditions\Condition\CTDA');
+    end else begin
+        ElementAssign(conditions, HighInteger, nil, false);
+        conditions := ElementByName(selectedElement, 'Conditions');
+        condition := ElementBySignature(ElementByIndex(conditions, ElementCount(conditions) - 1), 'CTDA');
+    end;
+
+    // Set condition values
+    SetEditValue(ElementByIndex(condition, 0), '11000000');
+    SetEditValue(ElementByIndex(condition, 2), 1.000000);
+    SetEditValue(ElementByIndex(condition, 3), 'GetItemCount');
+    SetNativeValue(ElementByName(condition, 'Inventory Object'), FormID(bookRecord));
+    SetEditValue(ElementByName(condition, 'Run On'), 'Reference');
+    SetEditValue(ElementByName(condition, 'Reference'), '00000014');
+
+end;
+
+end.

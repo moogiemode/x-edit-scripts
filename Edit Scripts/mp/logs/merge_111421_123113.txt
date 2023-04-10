@@ -1,0 +1,413 @@
+-----------------------------------------------------------------------------------
+Merge Plugins v1.9: Merges files.  For use with xEdit.
+-----------------------------------------------------------------------------------
+SSEEdit version 4.0.3
+
+Merging [Craft] (royan)ryza_outfit.esp
+Merging [Craft] ADEC Alduin Armor.esp
+Merging [Craft] Aves Ancient Circlet and Earrings and Piercings.esp
+Merging [Craft] Aves Frozen Star Set.esp
+Merging [Craft] Aves SkyAmulet.esp
+Merging [Craft] Aves SkyRing.esp
+Merging [Craft] Aves Unique Jewelry Replacer.esp
+Merging [Craft] BDO Herawen_Xing.esp
+Merging [Craft] BDO India SE.esp
+Merging [Craft] BDOR Aquila by Team TAL.esp
+Merging [Craft] BDOR Checkmate by Team TAL.esp
+Merging [Craft] BDOR Danharum by Team TAL.esp
+Merging [Craft] BDOR Derictus by Team TAL.esp
+Merging [Craft] BDOR Makalu by Team TAL.esp
+Merging [Craft] BDOR Mueburus by Team TAL.esp
+Merging [Craft] BDOR Night Cat by Team TAL.esp
+Merging [Craft] BDOR Outlaws of Margoria by Team TAL.esp
+Merging [Craft] BDOR Pabilla by Team TAL.esp
+Merging [Craft] BnS Zhenhunge.esp
+Merging [Craft] C5Kev's Herme Mora Priestess CBBE.esp
+Merging [Craft] C5Kev's Text From The Black Books CBBE.esp
+Merging [Craft] Caenarvon Yue Qingshu.esp
+Merging [Craft] Christine Clockwork.esp
+Merging [Craft] Christine Dragon Fighter.esp
+Merging [Craft] Christine Dragon Viking.esp
+Merging [Craft] Christine Nomadic Warrior.esp
+Merging [Craft] Cloud CrimsonDragon.esp
+Merging [Craft] Cloud HexTenebris.esp
+Merging [Craft] Cloud LayeredGowns.esp
+Merging [Craft] CN_Accessories.esp
+Merging [Craft] COCO Ahri Uniforms v2 SE.esp
+Merging [Craft] COCO Shadow Assassin.esp
+Merging [Craft] COCO Succubus SE.esp
+Merging [Craft] Daedric Chainmail.esp
+Merging [Craft] Dark Disciple Standalone SE.esp
+Merging [Craft] Dark Elf Blader.esp
+Merging [Craft] DenassaG_MageRobes.esp
+Merging [Craft] dint BDO Black Knight.esp
+Merging [Craft] dint BDO Striker Bl.esp
+Merging [Craft] Dint BDO_Ran.esp
+Merging [Craft] DM BDOR Adamas by Team TAL.esp
+Merging [Craft] DM BDOR Azure Knight by Team TAL.esp
+Merging [Craft] DM BDOR Dobart by Team TAL.esp
+Merging [Craft] DM BDOR Hamshin by Team TAL.esp
+Merging [Craft] DM BDOR La Orzeca by Team TAL.esp
+Merging [Craft] DM BDOR Sephia by Team TAL.esp
+Merging [Craft] DOAXVV Chihaya of Zuiun.esp
+Merging [Craft] DOAXVV Royal Flush.esp
+Merging [Craft] DR Alicia by Team TAL.esp
+Merging [Craft] Dragon Lilly.esp
+Merging [Craft] DragonboneBarbarianArmor.esp
+Merging [Craft] DragonLordSwords.esp
+Merging [Craft] FemaleWolvenLvl5.esp
+Merging [Craft] FemTsunArmor.esp
+Merging [Craft] full_inu Ordained Set.esp
+Merging [Craft] FurSet by Keung.esp
+Merging [Craft] Genshin Costume.esp
+Merging [Craft] Gigaduex_Outfit.esp
+Merging [Craft] Godfall Silvermane by Team TAL.esp
+Merging [Craft] Grand Scarlet Kunoichi.esp
+Merging [Craft] immyneedscake 2B Reincarnation Remastered.esp
+Merging [Craft] immyneedscake BDO Valoren.esp
+Merging [Craft] immyneedscake BDOR Jousting Armour by Team TAL.esp
+Merging [Craft] immyneedscake COCO Joan of Arc.esp
+Merging [Craft] immyneedscake COCO Raikou.esp
+Merging [Craft] immyneedscake COCO Succubus Orc.esp
+Merging [Craft] immyneedscake Dint Dark Knight BDO - Rosa Cassius.esp
+Merging [Craft] immyneedscake Dint Dark Knight BDO - Sin Terrna.esp
+Merging [Craft] immyneedscake Morningstar Wings SMP.esp
+Merging [Craft] immyneedscake NIER 2B Set by Team TAL.esp
+Merging [Craft] immyneedscake NoOC KDA Evelynn.esp
+Merging [Craft] immyneedscake RyanReos Bunny Irelia.esp
+Merging [Craft] immyneedscake RyanReos Elf Paladin.esp
+Merging [Craft] immyneedscake RyanReos High Priestess.esp
+Merging [Craft] immyneedscake RyanReosPrimrose Egypt.esp
+Merging [Craft] immyneedscake Zhumoyi.esp
+
+Script is using moogie - Craft Book Merge Part 1.esp as the merge file.
+    Adding masters to merge file...
+
+Renumbering conflicting FormIDs before merging...
+    Renumbering records in file [Craft] (royan)ryza_outfit.esp
+    Renumbering records in file [Craft] ADEC Alduin Armor.esp
+    Renumbering records in file [Craft] Aves Ancient Circlet and Earrings and Piercings.esp
+    Renumbering records in file [Craft] Aves Frozen Star Set.esp
+    Renumbering records in file [Craft] Aves SkyAmulet.esp
+    Renumbering records in file [Craft] Aves SkyRing.esp
+    Renumbering records in file [Craft] Aves Unique Jewelry Replacer.esp
+    Renumbering records in file [Craft] BDO Herawen_Xing.esp
+    Renumbering records in file [Craft] BDO India SE.esp
+    Renumbering records in file [Craft] BDOR Aquila by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Checkmate by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Danharum by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Derictus by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Makalu by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Mueburus by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Night Cat by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Outlaws of Margoria by Team TAL.esp
+    Renumbering records in file [Craft] BDOR Pabilla by Team TAL.esp
+    Renumbering records in file [Craft] BnS Zhenhunge.esp
+    Renumbering records in file [Craft] C5Kev's Herme Mora Priestess CBBE.esp
+    Renumbering records in file [Craft] C5Kev's Text From The Black Books CBBE.esp
+    Renumbering records in file [Craft] Caenarvon Yue Qingshu.esp
+    Renumbering records in file [Craft] Christine Clockwork.esp
+    Renumbering records in file [Craft] Christine Dragon Fighter.esp
+    Renumbering records in file [Craft] Christine Dragon Viking.esp
+    Renumbering records in file [Craft] Christine Nomadic Warrior.esp
+    Renumbering records in file [Craft] Cloud CrimsonDragon.esp
+    Renumbering records in file [Craft] Cloud HexTenebris.esp
+    Renumbering records in file [Craft] Cloud LayeredGowns.esp
+    Renumbering records in file [Craft] CN_Accessories.esp
+    Renumbering records in file [Craft] COCO Ahri Uniforms v2 SE.esp
+    Renumbering records in file [Craft] COCO Shadow Assassin.esp
+    Renumbering records in file [Craft] COCO Succubus SE.esp
+    Renumbering records in file [Craft] Daedric Chainmail.esp
+    Renumbering records in file [Craft] Dark Disciple Standalone SE.esp
+    Renumbering records in file [Craft] Dark Elf Blader.esp
+    Renumbering records in file [Craft] DenassaG_MageRobes.esp
+    Renumbering records in file [Craft] dint BDO Black Knight.esp
+    Renumbering records in file [Craft] dint BDO Striker Bl.esp
+    Renumbering records in file [Craft] Dint BDO_Ran.esp
+    Renumbering records in file [Craft] DM BDOR Adamas by Team TAL.esp
+    Renumbering records in file [Craft] DM BDOR Azure Knight by Team TAL.esp
+    Renumbering records in file [Craft] DM BDOR Dobart by Team TAL.esp
+    Renumbering records in file [Craft] DM BDOR Hamshin by Team TAL.esp
+    Renumbering records in file [Craft] DM BDOR La Orzeca by Team TAL.esp
+    Renumbering records in file [Craft] DM BDOR Sephia by Team TAL.esp
+    Renumbering records in file [Craft] DOAXVV Chihaya of Zuiun.esp
+    Renumbering records in file [Craft] DOAXVV Royal Flush.esp
+    Renumbering records in file [Craft] DR Alicia by Team TAL.esp
+    Renumbering records in file [Craft] Dragon Lilly.esp
+    Renumbering records in file [Craft] DragonboneBarbarianArmor.esp
+    Renumbering records in file [Craft] DragonLordSwords.esp
+    Renumbering records in file [Craft] FemaleWolvenLvl5.esp
+    Renumbering records in file [Craft] FemTsunArmor.esp
+    Renumbering records in file [Craft] full_inu Ordained Set.esp
+    Renumbering records in file [Craft] FurSet by Keung.esp
+    Renumbering records in file [Craft] Genshin Costume.esp
+    Renumbering records in file [Craft] Gigaduex_Outfit.esp
+    Renumbering records in file [Craft] Godfall Silvermane by Team TAL.esp
+    Renumbering records in file [Craft] Grand Scarlet Kunoichi.esp
+    Renumbering records in file [Craft] immyneedscake 2B Reincarnation Remastered.esp
+    Renumbering records in file [Craft] immyneedscake BDO Valoren.esp
+    Renumbering records in file [Craft] immyneedscake BDOR Jousting Armour by Team TAL.esp
+    Renumbering records in file [Craft] immyneedscake COCO Joan of Arc.esp
+    Renumbering records in file [Craft] immyneedscake COCO Raikou.esp
+    Renumbering records in file [Craft] immyneedscake COCO Succubus Orc.esp
+    Renumbering records in file [Craft] immyneedscake Dint Dark Knight BDO - Rosa Cassius.esp
+    Renumbering records in file [Craft] immyneedscake Dint Dark Knight BDO - Sin Terrna.esp
+    Renumbering records in file [Craft] immyneedscake Morningstar Wings SMP.esp
+    Renumbering records in file [Craft] immyneedscake NIER 2B Set by Team TAL.esp
+    Renumbering records in file [Craft] immyneedscake NoOC KDA Evelynn.esp
+    Renumbering records in file [Craft] immyneedscake RyanReos Bunny Irelia.esp
+    Renumbering records in file [Craft] immyneedscake RyanReos Elf Paladin.esp
+    Renumbering records in file [Craft] immyneedscake RyanReos High Priestess.esp
+    Renumbering records in file [Craft] immyneedscake RyanReosPrimrose Egypt.esp
+    Renumbering records in file [Craft] immyneedscake Zhumoyi.esp
+    0 records renumbered.
+
+Copying general assets from Mod Organizer directories.
+    Copying assets from directory "C:\Users\moogi\Documents\Modding\MO2-SkyrimSE\mods\moogie - armor crafting"
+
+Copying records...
+    Copying records from [Craft] immyneedscake Zhumoyi.esp
+    Copying records from [Craft] immyneedscake RyanReosPrimrose Egypt.esp
+    Copying records from [Craft] immyneedscake RyanReos High Priestess.esp
+    Copying records from [Craft] immyneedscake RyanReos Elf Paladin.esp
+    Copying records from [Craft] immyneedscake RyanReos Bunny Irelia.esp
+    Copying records from [Craft] immyneedscake NoOC KDA Evelynn.esp
+    Copying records from [Craft] immyneedscake NIER 2B Set by Team TAL.esp
+    Copying records from [Craft] immyneedscake Morningstar Wings SMP.esp
+    Copying records from [Craft] immyneedscake Dint Dark Knight BDO - Sin Terrna.esp
+    Copying records from [Craft] immyneedscake Dint Dark Knight BDO - Rosa Cassius.esp
+    Copying records from [Craft] immyneedscake COCO Succubus Orc.esp
+    Copying records from [Craft] immyneedscake COCO Raikou.esp
+    Copying records from [Craft] immyneedscake COCO Joan of Arc.esp
+    Copying records from [Craft] immyneedscake BDOR Jousting Armour by Team TAL.esp
+    Copying records from [Craft] immyneedscake BDO Valoren.esp
+    Copying records from [Craft] immyneedscake 2B Reincarnation Remastered.esp
+    Copying records from [Craft] Grand Scarlet Kunoichi.esp
+    Copying records from [Craft] Godfall Silvermane by Team TAL.esp
+    Copying records from [Craft] Gigaduex_Outfit.esp
+    Copying records from [Craft] Genshin Costume.esp
+    Copying records from [Craft] FurSet by Keung.esp
+    Copying records from [Craft] full_inu Ordained Set.esp
+    Copying records from [Craft] FemTsunArmor.esp
+    Copying records from [Craft] FemaleWolvenLvl5.esp
+    Copying records from [Craft] DragonLordSwords.esp
+    Copying records from [Craft] DragonboneBarbarianArmor.esp
+    Copying records from [Craft] Dragon Lilly.esp
+    Copying records from [Craft] DR Alicia by Team TAL.esp
+    Copying records from [Craft] DOAXVV Royal Flush.esp
+    Copying records from [Craft] DOAXVV Chihaya of Zuiun.esp
+    Copying records from [Craft] DM BDOR Sephia by Team TAL.esp
+    Copying records from [Craft] DM BDOR La Orzeca by Team TAL.esp
+    Copying records from [Craft] DM BDOR Hamshin by Team TAL.esp
+    Copying records from [Craft] DM BDOR Dobart by Team TAL.esp
+    Copying records from [Craft] DM BDOR Azure Knight by Team TAL.esp
+    Copying records from [Craft] DM BDOR Adamas by Team TAL.esp
+    Copying records from [Craft] Dint BDO_Ran.esp
+    Copying records from [Craft] dint BDO Striker Bl.esp
+    Copying records from [Craft] dint BDO Black Knight.esp
+    Copying records from [Craft] DenassaG_MageRobes.esp
+    Copying records from [Craft] Dark Elf Blader.esp
+    Copying records from [Craft] Dark Disciple Standalone SE.esp
+    Copying records from [Craft] Daedric Chainmail.esp
+    Copying records from [Craft] COCO Succubus SE.esp
+    Copying records from [Craft] COCO Shadow Assassin.esp
+    Copying records from [Craft] COCO Ahri Uniforms v2 SE.esp
+    Copying records from [Craft] CN_Accessories.esp
+    Copying records from [Craft] Cloud LayeredGowns.esp
+    Copying records from [Craft] Cloud HexTenebris.esp
+    Copying records from [Craft] Cloud CrimsonDragon.esp
+    Copying records from [Craft] Christine Nomadic Warrior.esp
+    Copying records from [Craft] Christine Dragon Viking.esp
+    Copying records from [Craft] Christine Dragon Fighter.esp
+    Copying records from [Craft] Christine Clockwork.esp
+    Copying records from [Craft] Caenarvon Yue Qingshu.esp
+    Copying records from [Craft] C5Kev's Text From The Black Books CBBE.esp
+    Copying records from [Craft] C5Kev's Herme Mora Priestess CBBE.esp
+    Copying records from [Craft] BnS Zhenhunge.esp
+    Copying records from [Craft] BDOR Pabilla by Team TAL.esp
+    Copying records from [Craft] BDOR Outlaws of Margoria by Team TAL.esp
+    Copying records from [Craft] BDOR Night Cat by Team TAL.esp
+    Copying records from [Craft] BDOR Mueburus by Team TAL.esp
+    Copying records from [Craft] BDOR Makalu by Team TAL.esp
+    Copying records from [Craft] BDOR Derictus by Team TAL.esp
+    Copying records from [Craft] BDOR Danharum by Team TAL.esp
+    Copying records from [Craft] BDOR Checkmate by Team TAL.esp
+    Copying records from [Craft] BDOR Aquila by Team TAL.esp
+    Copying records from [Craft] BDO India SE.esp
+    Copying records from [Craft] BDO Herawen_Xing.esp
+    Copying records from [Craft] Aves Unique Jewelry Replacer.esp
+    Copying records from [Craft] Aves SkyRing.esp
+    Copying records from [Craft] Aves SkyAmulet.esp
+    Copying records from [Craft] Aves Frozen Star Set.esp
+    Copying records from [Craft] Aves Ancient Circlet and Earrings and Piercings.esp
+    Copying records from [Craft] ADEC Alduin Armor.esp
+    Copying records from [Craft] (royan)ryza_outfit.esp
+    1886 records copied.
+
+Removing unnecessary masters...
+    Removing master [Craft] immyneedscake Zhumoyi.esp
+    Removing master [Craft] immyneedscake RyanReosPrimrose Egypt.esp
+    Removing master [Craft] immyneedscake RyanReos High Priestess.esp
+    Removing master [Craft] immyneedscake RyanReos Elf Paladin.esp
+    Removing master [Craft] immyneedscake RyanReos Bunny Irelia.esp
+    Removing master [Craft] immyneedscake NoOC KDA Evelynn.esp
+    Removing master [Craft] immyneedscake NIER 2B Set by Team TAL.esp
+    Removing master [Craft] immyneedscake Morningstar Wings SMP.esp
+    Removing master [Craft] immyneedscake Dint Dark Knight BDO - Sin Terrna.esp
+    Removing master [Craft] immyneedscake Dint Dark Knight BDO - Rosa Cassius.esp
+    Removing master [Craft] immyneedscake COCO Succubus Orc.esp
+    Removing master [Craft] immyneedscake COCO Raikou.esp
+    Removing master [Craft] immyneedscake COCO Joan of Arc.esp
+    Removing master [Craft] immyneedscake BDOR Jousting Armour by Team TAL.esp
+    Removing master [Craft] immyneedscake BDO Valoren.esp
+    Removing master [Craft] immyneedscake 2B Reincarnation Remastered.esp
+    Removing master [Craft] Grand Scarlet Kunoichi.esp
+    Removing master [Craft] Godfall Silvermane by Team TAL.esp
+    Removing master [Craft] Gigaduex_Outfit.esp
+    Removing master [Craft] Genshin Costume.esp
+    Removing master [Craft] FurSet by Keung.esp
+    Removing master [Craft] full_inu Ordained Set.esp
+    Removing master [Craft] FemTsunArmor.esp
+    Removing master [Craft] FemaleWolvenLvl5.esp
+    Removing master [Craft] DragonLordSwords.esp
+    Removing master [Craft] DragonboneBarbarianArmor.esp
+    Removing master [Craft] Dragon Lilly.esp
+    Removing master [Craft] DR Alicia by Team TAL.esp
+    Removing master [Craft] DOAXVV Royal Flush.esp
+    Removing master [Craft] DOAXVV Chihaya of Zuiun.esp
+    Removing master [Craft] DM BDOR Sephia by Team TAL.esp
+    Removing master [Craft] DM BDOR La Orzeca by Team TAL.esp
+    Removing master [Craft] DM BDOR Hamshin by Team TAL.esp
+    Removing master [Craft] DM BDOR Dobart by Team TAL.esp
+    Removing master [Craft] DM BDOR Azure Knight by Team TAL.esp
+    Removing master [Craft] DM BDOR Adamas by Team TAL.esp
+    Removing master [Craft] Dint BDO_Ran.esp
+    Removing master [Craft] dint BDO Striker Bl.esp
+    Removing master [Craft] dint BDO Black Knight.esp
+    Removing master [Craft] DenassaG_MageRobes.esp
+    Removing master [Craft] Dark Elf Blader.esp
+    Removing master [Craft] Dark Disciple Standalone SE.esp
+    Removing master [Craft] Daedric Chainmail.esp
+    Removing master [Craft] COCO Succubus SE.esp
+    Removing master [Craft] COCO Shadow Assassin.esp
+    Removing master [Craft] COCO Ahri Uniforms v2 SE.esp
+    Removing master [Craft] CN_Accessories.esp
+    Removing master [Craft] Cloud LayeredGowns.esp
+    Removing master [Craft] Cloud HexTenebris.esp
+    Removing master [Craft] Cloud CrimsonDragon.esp
+    Removing master [Craft] Christine Nomadic Warrior.esp
+    Removing master [Craft] Christine Dragon Viking.esp
+    Removing master [Craft] Christine Dragon Fighter.esp
+    Removing master [Craft] Christine Clockwork.esp
+    Removing master [Craft] Caenarvon Yue Qingshu.esp
+    Removing master [Craft] C5Kev's Text From The Black Books CBBE.esp
+    Removing master [Craft] C5Kev's Herme Mora Priestess CBBE.esp
+    Removing master [Craft] BnS Zhenhunge.esp
+    Removing master [Craft] BDOR Pabilla by Team TAL.esp
+    Removing master [Craft] BDOR Outlaws of Margoria by Team TAL.esp
+    Removing master [Craft] BDOR Night Cat by Team TAL.esp
+    Removing master [Craft] BDOR Mueburus by Team TAL.esp
+    Removing master [Craft] BDOR Makalu by Team TAL.esp
+    Removing master [Craft] BDOR Derictus by Team TAL.esp
+    Removing master [Craft] BDOR Danharum by Team TAL.esp
+    Removing master [Craft] BDOR Checkmate by Team TAL.esp
+    Removing master [Craft] BDOR Aquila by Team TAL.esp
+    Removing master [Craft] BDO India SE.esp
+    Removing master [Craft] BDO Herawen_Xing.esp
+    Removing master [Craft] Aves Unique Jewelry Replacer.esp
+    Removing master [Craft] Aves SkyRing.esp
+    Removing master [Craft] Aves SkyAmulet.esp
+    Removing master [Craft] Aves Frozen Star Set.esp
+    Removing master [Craft] Aves Ancient Circlet and Earrings and Piercings.esp
+    Removing master [Craft] ADEC Alduin Armor.esp
+    Removing master [Craft] (royan)ryza_outfit.esp
+
+Creating FormLists...
+    Creating formlist for [Craft] (royan)ryza_outfit.esp
+    Creating formlist for [Craft] ADEC Alduin Armor.esp
+    Creating formlist for [Craft] Aves Ancient Circlet and Earrings and Piercings.esp
+    Creating formlist for [Craft] Aves Frozen Star Set.esp
+    Creating formlist for [Craft] Aves SkyAmulet.esp
+    Creating formlist for [Craft] Aves SkyRing.esp
+    Creating formlist for [Craft] Aves Unique Jewelry Replacer.esp
+    Creating formlist for [Craft] BDO Herawen_Xing.esp
+    Creating formlist for [Craft] BDO India SE.esp
+    Creating formlist for [Craft] BDOR Aquila by Team TAL.esp
+    Creating formlist for [Craft] BDOR Checkmate by Team TAL.esp
+    Creating formlist for [Craft] BDOR Danharum by Team TAL.esp
+    Creating formlist for [Craft] BDOR Derictus by Team TAL.esp
+    Creating formlist for [Craft] BDOR Makalu by Team TAL.esp
+    Creating formlist for [Craft] BDOR Mueburus by Team TAL.esp
+    Creating formlist for [Craft] BDOR Night Cat by Team TAL.esp
+    Creating formlist for [Craft] BDOR Outlaws of Margoria by Team TAL.esp
+    Creating formlist for [Craft] BDOR Pabilla by Team TAL.esp
+    Creating formlist for [Craft] BnS Zhenhunge.esp
+    Creating formlist for [Craft] C5Kev's Herme Mora Priestess CBBE.esp
+    Creating formlist for [Craft] C5Kev's Text From The Black Books CBBE.esp
+    Creating formlist for [Craft] Caenarvon Yue Qingshu.esp
+    Creating formlist for [Craft] Christine Clockwork.esp
+    Creating formlist for [Craft] Christine Dragon Fighter.esp
+    Creating formlist for [Craft] Christine Dragon Viking.esp
+    Creating formlist for [Craft] Christine Nomadic Warrior.esp
+    Creating formlist for [Craft] Cloud CrimsonDragon.esp
+    Creating formlist for [Craft] Cloud HexTenebris.esp
+    Creating formlist for [Craft] Cloud LayeredGowns.esp
+    Creating formlist for [Craft] CN_Accessories.esp
+    Creating formlist for [Craft] COCO Ahri Uniforms v2 SE.esp
+    Creating formlist for [Craft] COCO Shadow Assassin.esp
+    Creating formlist for [Craft] COCO Succubus SE.esp
+    Creating formlist for [Craft] Daedric Chainmail.esp
+    Creating formlist for [Craft] Dark Disciple Standalone SE.esp
+    Creating formlist for [Craft] Dark Elf Blader.esp
+    Creating formlist for [Craft] DenassaG_MageRobes.esp
+    Creating formlist for [Craft] dint BDO Black Knight.esp
+    Creating formlist for [Craft] dint BDO Striker Bl.esp
+    Creating formlist for [Craft] Dint BDO_Ran.esp
+    Creating formlist for [Craft] DM BDOR Adamas by Team TAL.esp
+    Creating formlist for [Craft] DM BDOR Azure Knight by Team TAL.esp
+    Creating formlist for [Craft] DM BDOR Dobart by Team TAL.esp
+    Creating formlist for [Craft] DM BDOR Hamshin by Team TAL.esp
+    Creating formlist for [Craft] DM BDOR La Orzeca by Team TAL.esp
+    Creating formlist for [Craft] DM BDOR Sephia by Team TAL.esp
+    Creating formlist for [Craft] DOAXVV Chihaya of Zuiun.esp
+    Creating formlist for [Craft] DOAXVV Royal Flush.esp
+    Creating formlist for [Craft] DR Alicia by Team TAL.esp
+    Creating formlist for [Craft] Dragon Lilly.esp
+    Creating formlist for [Craft] DragonboneBarbarianArmor.esp
+    Creating formlist for [Craft] DragonLordSwords.esp
+    Creating formlist for [Craft] FemaleWolvenLvl5.esp
+    Creating formlist for [Craft] FemTsunArmor.esp
+    Creating formlist for [Craft] full_inu Ordained Set.esp
+    Creating formlist for [Craft] FurSet by Keung.esp
+    Creating formlist for [Craft] Genshin Costume.esp
+    Creating formlist for [Craft] Gigaduex_Outfit.esp
+    Creating formlist for [Craft] Godfall Silvermane by Team TAL.esp
+    Creating formlist for [Craft] Grand Scarlet Kunoichi.esp
+    Creating formlist for [Craft] immyneedscake 2B Reincarnation Remastered.esp
+    Creating formlist for [Craft] immyneedscake BDO Valoren.esp
+    Creating formlist for [Craft] immyneedscake BDOR Jousting Armour by Team TAL.esp
+    Creating formlist for [Craft] immyneedscake COCO Joan of Arc.esp
+    Creating formlist for [Craft] immyneedscake COCO Raikou.esp
+    Creating formlist for [Craft] immyneedscake COCO Succubus Orc.esp
+    Creating formlist for [Craft] immyneedscake Dint Dark Knight BDO - Rosa Cassius.esp
+    Creating formlist for [Craft] immyneedscake Dint Dark Knight BDO - Sin Terrna.esp
+    Creating formlist for [Craft] immyneedscake Morningstar Wings SMP.esp
+    Creating formlist for [Craft] immyneedscake NIER 2B Set by Team TAL.esp
+    Creating formlist for [Craft] immyneedscake NoOC KDA Evelynn.esp
+    Creating formlist for [Craft] immyneedscake RyanReos Bunny Irelia.esp
+    Creating formlist for [Craft] immyneedscake RyanReos Elf Paladin.esp
+    Creating formlist for [Craft] immyneedscake RyanReos High Priestess.esp
+    Creating formlist for [Craft] immyneedscake RyanReosPrimrose Egypt.esp
+    Creating formlist for [Craft] immyneedscake Zhumoyi.esp
+
+
+-----------------------------------------------------------------------------------
+Your merged file has been created successfully.  It has 1962 records.
+
+
+Batch copying is enabled, so asset copying will now be performed in a cmd window.
+Please do not close the cmd window, it will close itself when asset copying is completed.
+It's also important that you don't close xEdit until the asset copying is completed.
+
+
+

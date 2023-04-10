@@ -1,0 +1,1 @@
+NewArmoury.esp //From the mod: Animated Armoury, by NickaNak. Reason: Requested by NickaNak, Claws created using the script holster incorrectly. Patch is available as an Animated Armoury optional file.

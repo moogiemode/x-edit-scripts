@@ -1,0 +1,83 @@
+-----------------------------------------------------------------------------------
+Merge Plugins v1.9: Merges files.  For use with xEdit.
+-----------------------------------------------------------------------------------
+SSEEdit version 4.0.3
+
+Merging BeastHHBB.esp
+Merging BeastHHBB - Brido Patch.esp
+Merging BeastHHBB - ESL - Armor and Clothing Extension Patch.esp
+Merging BeastHHBB - Immersive College NPCS Replacer.esp
+Merging BeastHHBB - Immersive College of Winterhold Patch.esp
+Merging BeastHHBB - Immersive Patrols II Replacer.esp
+Merging BeastHHBB - JSwords Patch.esp
+Merging BeastHHBB - Obscures College of Winterhold Replacer.esp
+Merging BeastHHBB - Skyrim Revamped CEO Replacer.esp
+Merging BeastHHBB - Relationship Dialogue Overhaul Replacer.esp
+
+Script is using BeastHHBB Merged.esp as the merge file.
+    Adding masters to merge file...
+
+Renumbering conflicting FormIDs before merging...
+    Renumbering records in file BeastHHBB.esp
+    Renumbering records in file BeastHHBB - Brido Patch.esp
+    Renumbering records in file BeastHHBB - ESL - Armor and Clothing Extension Patch.esp
+    Renumbering records in file BeastHHBB - Immersive College NPCS Replacer.esp
+    Renumbering records in file BeastHHBB - Immersive College of Winterhold Patch.esp
+    Renumbering records in file BeastHHBB - Immersive Patrols II Replacer.esp
+    Renumbering records in file BeastHHBB - JSwords Patch.esp
+    Renumbering records in file BeastHHBB - Obscures College of Winterhold Replacer.esp
+    Renumbering records in file BeastHHBB - Skyrim Revamped CEO Replacer.esp
+    Renumbering records in file BeastHHBB - Relationship Dialogue Overhaul Replacer.esp
+    0 records renumbered.
+
+Copying general assets from Mod Organizer directories.
+    Copying assets from directory "C:\Users\moogi\Documents\Modding\MO2-SkyrimSE\mods\BeastHHBB - Khajiit and Argonian content - player character and NPC replacer"
+
+Copying records...
+    Copying records from BeastHHBB - Relationship Dialogue Overhaul Replacer.esp
+    Copying records from BeastHHBB - Skyrim Revamped CEO Replacer.esp
+    Copying records from BeastHHBB - Obscures College of Winterhold Replacer.esp
+    Copying records from BeastHHBB - JSwords Patch.esp
+    Copying records from BeastHHBB - Immersive Patrols II Replacer.esp
+    Copying records from BeastHHBB - Immersive College of Winterhold Patch.esp
+    Copying records from BeastHHBB - Immersive College NPCS Replacer.esp
+    Copying records from BeastHHBB - ESL - Armor and Clothing Extension Patch.esp
+    Copying records from BeastHHBB - Brido Patch.esp
+    Copying records from BeastHHBB.esp
+    1218 records copied.
+
+Removing unnecessary masters...
+    Removing master BeastHHBB - Relationship Dialogue Overhaul Replacer.esp
+    Removing master BeastHHBB - Skyrim Revamped CEO Replacer.esp
+    Removing master BeastHHBB - Obscures College of Winterhold Replacer.esp
+    Removing master BeastHHBB - JSwords Patch.esp
+    Removing master BeastHHBB - Immersive Patrols II Replacer.esp
+    Removing master BeastHHBB - Immersive College of Winterhold Patch.esp
+    Removing master BeastHHBB - Immersive College NPCS Replacer.esp
+    Removing master BeastHHBB - ESL - Armor and Clothing Extension Patch.esp
+    Removing master BeastHHBB - Brido Patch.esp
+    Removing master BeastHHBB.esp
+
+Creating FormLists...
+    Creating formlist for BeastHHBB.esp
+    Creating formlist for BeastHHBB - Brido Patch.esp
+    Creating formlist for BeastHHBB - ESL - Armor and Clothing Extension Patch.esp
+    Creating formlist for BeastHHBB - Immersive College NPCS Replacer.esp
+    Creating formlist for BeastHHBB - Immersive College of Winterhold Patch.esp
+    Creating formlist for BeastHHBB - Immersive Patrols II Replacer.esp
+    Creating formlist for BeastHHBB - JSwords Patch.esp
+    Creating formlist for BeastHHBB - Obscures College of Winterhold Replacer.esp
+    Creating formlist for BeastHHBB - Skyrim Revamped CEO Replacer.esp
+    Creating formlist for BeastHHBB - Relationship Dialogue Overhaul Replacer.esp
+
+
+-----------------------------------------------------------------------------------
+Your merged file has been created successfully.  It has 1220 records.
+
+
+Batch copying is enabled, so asset copying will now be performed in a cmd window.
+Please do not close the cmd window, it will close itself when asset copying is completed.
+It's also important that you don't close xEdit until the asset copying is completed.
+
+
+

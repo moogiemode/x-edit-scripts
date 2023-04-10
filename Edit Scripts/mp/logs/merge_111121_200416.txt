@@ -1,0 +1,15 @@
+-----------------------------------------------------------------------------------
+Merge Plugins v1.9: Merges files.  For use with xEdit.
+-----------------------------------------------------------------------------------
+SSEEdit version 4.0.3
+
+Merging ASIS.esp
+Merging new.esp
+
+Script is using ASIS2.esp as the merge file.
+    Adding masters to merge file...
+
+Renumbering conflicting FormIDs before merging...
+    Renumbering records in file ASIS.esp
+
+Merge failed.  Exception: Load order FileID [3E] can not be mapped to file FileID for file "ASIS.esp"
