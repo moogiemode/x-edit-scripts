@@ -1,0 +1,8 @@
+; This is a comment.
+; Comments only work if the very first character is a semicolon.
+; The format is "editorId=prefix".
+; The old name is appended automatically.
+
+; like this:
+;kgSIM_ASAM_Sensor=[Quest]
+; will result in the item being renamed to "[Quest] ASAM Sensor 2077 Model"
