@@ -81,51 +81,10 @@ function CreateSMMQuestForKeyword(keyword: IInterface; menu: IInterface): IInter
 
 		CreateAndSetStructMember(curStruct, 'TargetMenu', 'Object', menu);
 
-
-		// setPropertyValue(scriptProperty, menu);
-
-		// structElements := ElementByPath(scriptProperty, 'Value\Array of Struct');
-		// curStruct := Add(structElements, 'Member', true);
 		AddMessage(Path(curStruct));
-
-
-
-
-
-				// AddMessage('Creating quest for keyword: ' + GetElementEditValues(questScript, 'Properties\0\propertyName'));
-		// scriptProperties := ElementByPath(questScript, 'Properties');
-		// currentScriptProperty := ElementAssign(scriptProperties, HighInteger, nil, false);
-		// SetElementEditValues(currentScriptProperty, 'propertyName', 'Author');
-		// SetElementEditValues(currentScriptProperty, 'Type', 'String');
-		// SetElementEditValues(currentScriptProperty, 'String', 'moogie');
-
-		// currentScriptProperty := ElementAssign(scriptProperties, HighInteger, nil, false);
-		// SetElementEditValues(currentScriptProperty, 'propertyName', 'Menus');
-		// SetElementEditValues(currentScriptProperty, 'Type', 'Array of Struct');
-		// scriptValues := ElementByPath(currentScriptProperty, 'Value\Array of Struct');
-		// SetToDefault(curMember);
-		// // SetElementNativeValues(curMember, 'memberName', 'ModMenu');
-		// // SetElementEditValues(currentStruct, 'Flags', 'Edited');
-
-
-
-		// if (menu <> -1) then begin
-		// end;
-
-
-		//create the second member and add it with the flst that comes from references
 
 		Result := questRecord;
 	end;
-
-
-  // ElementAssign(ElementByPath(recBOOK, 'VMAD'), LowInteger, ElementByPath(tplBook, 'VMAD'), False);
-  // props := ElementByPath(recBOOK, 'VMAD\Data\Scripts\Script\Properties');
-  // prop := ElementByIndex(props, 0);
-  // SetElementEditValues(prop, 'String', GetElementEditValues(recBOOK, 'FULL'));
-  // prop := ElementByIndex(props, 2);
-  // SetElementEditValues(prop, 'Value\Object Union\Object v2\FormID', Name(recSOUN));
-
 
 //============================================================================
 
@@ -184,9 +143,3 @@ function Finalize: integer;
 		mainFileKeywords.Free;
 		patchFileKeywords.Free;
 	end;
-
-
-//LinksTo(ElementBySignature(e, 'COCT')) = 0
-//GetFileName(e) => gets the file name that the record is in
-//FileByIndex(0) => gets the main file
-// addRequiredMastersSilent
